@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Caso Estudio 2</title>
+</head>
+<body>
+    <div class="container-master">
+        <header class="container-header">
+            <h1>FORMULARIO DE REGISTRO</h1>
+        </header>
+        <div class="container-fsform">
+            <fieldset>
+                <form action="" method="get" name="login" id="login" autocomplete="off" class="container-form"> 
+                    <div class="form_Nomb">
+                        <label for=""> Nombre Completo: </label>
+                        <input type="text" placeholder="Felipe Angeles">
+                    </div>
+
+                    <div class="form_sex">
+                        <span> Sexo </span>
+                        <select name="sexo" id="sexo">
+                            <option value="Hombre">Hombre</option>
+                            <option value="Mujer">Mujer</option>
+                            <option value="Otros">Prefiero no decir</option>
+                        </select>
+                    </div>
+
+                    <div class="form_Tele">
+                        <label for="tel">Telefono:</label>
+                        <input type="tel" name="tel" id="tel">
+                    </div>
+                    <div class="form_Ocupacion">
+                        <label for=""> Ocupacion: </label>
+                        <select name="grupo" id="grupo">
+                            <option value="1"> Mecanico </option>
+                            <option value="2">Doctor</option>
+                            <option value="3">Enfermero</option>
+                            <option value="4">Ama de casa</option>
+                        </select>
+                    </div>
+                    <div class="form_CE">
+                        <label for="">Correo Electronico: </label>
+                        <input type="email" name="email" id="email" placeholder="felipe@uthh.edu.mx">
+                    </div>
+
+                    <div class="frm_estado">
+                        <label for="estado">Estado de Visita: </label>
+                        <input type="text" name="estado" placeholder="Oaxaca">
+                    </div>
+
+                    <div class="form_Edad">
+                        <label for="" > Edad: </label>
+                        <input type="number" name="Edad" id="Edad" pattern="10" class="lrg-edad">
+                    </div>
+
+                    <div class="form_Disfr">
+                        <label for="checkbox">Evaluación del Evento:</label>
+
+                        <div id="checkbox">
+                            <span> Excelente </span>
+                        <input type="checkbox">
+                        </div>
+                        <div id="checkbox">
+                            <span> Bueno </span>
+                            <input type="checkbox">
+                        </div>
+                        <div id="checkbox">
+                            <span> Regular </span>
+                        <input type="checkbox">
+                        </div>
+                        <div id="checkbox">
+                            <span> Malo </span>
+                            <input type="checkbox">
+                        </div>
+                    </div>
+
+                    <div class="form_coment">
+                        <label for=""> Comentarios: </label>
+                        <textarea name="coments" id="coments" cols="20" rows="5" placeholder="Comentarios"></textarea>
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" value="Enviar">
+                    </div>
+                    </div>
+                    
+                </form>
+            </fieldset>
+            
+        </div>
+    </div>
+</body>
+</html>

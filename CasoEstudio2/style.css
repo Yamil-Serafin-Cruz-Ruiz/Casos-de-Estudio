@@ -1,0 +1,86 @@
+.container-master{
+    background-color: cadetblue;
+}
+
+.container-fsform{
+    margin-left: 7em;
+    margin-right: 7em;
+    padding: 5em;
+}
+
+.container-header{
+    background-color: darkkhaki;
+    text-align: center;
+    padding: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+
+.container{
+    background-color: darkkhaki
+}
+
+.container-form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 2em;
+   border-style: solid;
+   border-color: black;
+}
+
+.form_Ocupacion{
+    display: flex;
+    margin: 1em
+}
+
+.form_Nomb{
+    display: flex;
+    margin: 1em
+}
+
+.form_CE{
+    display: flex;
+    margin: 1em
+}
+
+.form_Edad{
+    display: flex;
+
+    margin: 1em
+}
+
+.form_Edad>input{
+    width: 3em;
+    height: 20px;
+}
+.form_Disfr{
+    display: flex;
+    margin: 1em;
+    flex-direction: column;
+}
+
+.form_sex{
+    margin: 1em;
+}
+
+.form_Tele{
+    display: flex;
+    margin: 1em
+}
+
+#checkbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    display: flex;
+
+    margin: 1em
+}
