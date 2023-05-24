@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Caso de Estudio 1</title>
+</head>
+<body>
+    <div class="container-master">
+        <header class="container-header">
+            <h1>FORMULARIO DE REGISTRO</h1>
+        </header>
+        <div class="container-fsform">
+            <fieldset>
+                <form action="" method="get" name="login" id="login" autocomplete="off" class="container-form"> 
+                    <div class="form_Nomb">
+                        <label for=""> Nombre Completo: </label>
+                        <input type="text" placeholder="Juan Perez">
+                    </div>
+                    <div class="form_CE">
+                        <label for="">Correo Electronico: </label>
+                        <input type="email" name="email" id="email" placeholder="juan@uthh.edu.mx">
+                    </div>
+                    <div class="form_Ocupacion">
+                        <label for=""> Ocupacion: </label>
+                        <select name="grupo" id="grupo">
+                            <option value="0">Ocupacion</option>
+                            <option value="1"> Mecanico </option>
+                            <option value="2">Doctor</option>
+                            <option value="3">Enfermero</option>
+                            <option value="4">Ama de casa</option>
+                        </select>
+                    </div>
+                    <div class="form_Talla">
+                        <label for="">Talla:</label>
+                        
+                        <input type="button" name="talla-s" id="talla-s" value="S">
+                        
+                        <input type="button" name="talla-l" id="talla-l" value="M">                    
+                        
+                        <input type="button" name="talla-l" id="talla-l" value="L">
+                        
+                        <input type="button" name="talla-xl" id="talla-xl" value="XL">
+                    </div>
+                    <div class="form_Edad">
+                        <label for=""> Edad: </label>
+                        <input type="number" name="Edad" id="Edad" pattern="10">
+                    </div>
+                    <div class="form_EstVis">
+                        <label for="estado">Estado de Visita: </label>
+                        <input type="text" name="estado" >
+                    </div>
+                    <div class="form_Tele">
+                        <label for="tel">Telefono:</label>
+                        <input type="tel" name="tel" id="tel">
+                    </div>
+                    <div class="form_Disfr">
+                        <label for="checkbox">Disfruto su Visita</label>
+                        <div>
+                            <span> Si </span>
+                        <input type="checkbox">
+                        </div>
+                        <div>
+                            <span> No </span>
+                            <input type="checkbox">
+                        </div>
+                    </div>
+    
+                    <div class="form_PrefDie">
+                        <label for=""> Preferencias Dietiéticas </label>
+                        <div id="checkbox">
+                            <span> Vegetariano: </span>
+                            <input type="checkbox" name="Vegetariano" id="Vegetariano">
+                        </div>
+                        <div id="checkbox">
+                            <span> Vegano: </span>
+                            <input type="checkbox" name="Vegano" id="Vegano">
+                        </div>
+                        <div id="checkbox">
+                            <span> Sin Gluten: </span>
+                            <input type="checkbox" name="SinGlu" id="SinGlu">
+                        </div>
+                        <div id="checkbox">
+                            <span> Sin Restricciones: </span>
+                        <input type="checkbox" name="SinRest" id="SinRest">
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+                
+            </fieldset>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
